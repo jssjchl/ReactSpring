@@ -1,16 +1,10 @@
-import './App.css';
-
+import React from "react";
+import RouterComponent from "./component/route/RouterComponent";
 function App() {
   return (
-   
-    <div className="App">
-      <header className="App-header">
-        <h1 className='title'>Hello World</h1>
-        <p>Factos</p>
-      </header>
+    <div>
+      <RouterComponent />
     </div>
   );
 }
-
-
 export default App;
